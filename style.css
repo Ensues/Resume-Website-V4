@@ -299,6 +299,7 @@ span{
     margin: 0 auto;
     max-width: 100%;
     height: auto;
+    border: 3px solid var(--light-bg-color);
 }
 
 .about .text {
@@ -728,6 +729,10 @@ body.light-mode {
 /* About */
 .light-mode .about{
     background-color: var(--light-second-bg-color);
+}
+
+.light-mode .about img{
+    border: 3px solid var(--bg-color);
 }
 
 /* Skills */
