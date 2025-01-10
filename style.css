@@ -280,6 +280,41 @@ span{
     margin-bottom: 5rem;
 }
 
+.about .container {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 25px;
+    column-gap: 5px;
+    width: 100%;
+}
+
+.about up{
+    font-size: 3rem;
+    color: var(--main-color);
+}
+
+.about img {
+    flex: 1;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.about .text {
+    float: center;
+    flex: 1;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.about .text a{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    width: 250px;
+}
 
 /* Scroll Bar */
 ::-webkit-scrollbar{
@@ -307,14 +342,16 @@ span{
     border-radius: 1%;
     text-transform: uppercase;
     border: 2px solid var(--main-color);
+    text-align: center;
 }
 .skills .heading{
     margin-bottom: 0px;
 }
 .skills .heading2{
     font-size: 4ch;
-    
     padding: 25px 0px;
+    justify-content: center;
+    align-items: center;
 }
 .skills .heading2:hover{
     color: var(--main-color);
@@ -327,6 +364,8 @@ span{
 .skills .skill-icon{
     margin: 0px 5px;
     height: 5rem;
+    justify-content: center;
+    align-items: center;
 }
 .skills .skill-icon:hover{
     transition: 0.3s ease-in-out;
@@ -398,17 +437,11 @@ span{
     flex-direction: row; /* Text on the left */
 }
 
-/* Resume */
-.resume{
-    padding-top: 25px;
-    background: var(--bg-color);
-}
-
 /* Contact Me */
 
 .contact {
     padding-top: 25px;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 
 .container {
@@ -497,7 +530,7 @@ span{
     width: 100%;
     border: none;
     font-size: 16px;
-    background: var(--bg-color);
+    background: var(--second-bg-color);
     border-radius: 6px;
     color: var(--text-color);
     padding: 0 15px;
@@ -513,10 +546,12 @@ span{
     margin-top: 6px;
 }
 
-.container .right-side .btn{
-    display: inline-block;
+.container .right-side .btn-group{ 
+    display: flex;
     margin-top: 6px;
+    margin-left: 30%;
 }
+
 
 /* Footer */
 .footer{
@@ -689,7 +724,7 @@ body.light-mode {
 }
 
 /* About */
-.about.light-mode{
+.light-mode .about{
     background-color: var(--light-second-bg-color);
 }
 
@@ -704,18 +739,18 @@ body.light-mode {
 }
 
 /* Projects */
-.projects.light-mode{
+.light-mode .projects{
     background-color: var(--light-second-bg-color);
 }
 
-/* Certificates */
-.resume.light-mode{
+/* Resume */
+.light-mode .resume{
     background-color: var(--light-bg-color);
 }
 
 /* Contact Me */
 .light-mode .contact {
-    background-color: var(--light-second-bg-color);
+    background-color: var(--light-bg-color);
 }
 
 .light-mode .container .left-side .details .topic{
@@ -729,7 +764,7 @@ body.light-mode {
 
 .light-mode .container .right-side textarea,
 .light-mode .container .right-side input {
-    background: var(--light-bg-color);
+    background: var(--light-second-bg-color);
     color: var(--bg-color);
 }
 
