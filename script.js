@@ -46,7 +46,7 @@ document.getElementById('theme-toggle').addEventListener('click', function() {
     document.querySelector('.about').classList.toggle('light-mode');
     document.querySelector('.skills').classList.toggle('light-mode');
     document.querySelector('.projects').classList.toggle('light-mode');
-    document.querySelector('.resume').classList.toggle('light-mode');
+    document.querySelector('.resume ').classList.toggle('light-mode');
     document.querySelector('.contact').classList.toggle('light-mode');
     // document.querySelector('.').classList.toggle('light-mode'); <-- Add this line
 });
