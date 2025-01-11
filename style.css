@@ -78,6 +78,10 @@ body{
 c{
     color: var(--main-color);
 }
+up{
+    font-size: 3rem;
+    color: var(--main-color);
+}
 /* Header */
 .header{
     position:fixed;
@@ -287,11 +291,6 @@ span{
     padding: 25px;
     column-gap: 5px;
     width: 100%;
-}
-
-.about up{
-    font-size: 3rem;
-    color: var(--main-color);
 }
 
 .about img {
