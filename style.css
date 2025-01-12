@@ -33,7 +33,7 @@ body{
 .heading{
     font-size: 8rem;
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 2.5rem;
     transition: 0.3s ease-in;
 }
@@ -288,7 +288,6 @@ span{
     display: flex;
     align-items: center; 
     justify-content: center;
-    padding: 25px;
     column-gap: 5px;
     width: 100%;
 }
